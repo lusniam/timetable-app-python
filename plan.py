@@ -1,5 +1,8 @@
 import tkinter as tk
 from tkinter import ttk
+import sys, os
+
+os.chdir(sys._MEIPASS)
 
 window = tk.Tk()
 window.geometry('1130x652')
